@@ -1,0 +1,76 @@
+{
+	"slots": [
+		"MainSlot"
+	],
+	"FKAnims": {
+		"Walking": {
+			"slot": "MainSlot",
+			"speed": 1.0,
+			"loop": true,
+			"fadeIn": 1.0,
+			"ogreAnim": "Walking"
+		},
+		"Texting": {
+			"slot": "MainSlot",
+			"speed": 1.0,
+			"loop": true,
+			"fadeIn": 1.0,
+			"ogreAnim": "Walking While Texting"
+		},
+		"TalkingPacing": {
+			"slot": "MainSlot",
+			"speed": 1.0,
+			"loop": true,
+			"fadeIn": 1.0,
+			"ogreAnim": "Talking Phone Pacing"
+		},
+		"Talking": {
+			"slot": "MainSlot",
+			"speed": 1.0,
+			"loop": true,
+			"fadeIn": 1.0,
+			"ogreAnim": "Talking On A Cell Phone"
+		},
+		"PistolIdle": {
+			"slot": "MainSlot",
+			"speed": 1.0,
+			"loop": true,
+			"fadeIn": 1.0,
+			"ogreAnim": "Pistol Idle"
+		},
+		"AimBase": {
+			"slot": "MainSlot",
+			"speed": 1.0,
+			"loop": true,
+			"fadeIn": 1.0,
+			"ogreAnim": "Pistol Idle"
+		}
+	},
+	"IKAnims": {
+		"AimLeftHand":{
+			"fadeIn": 1.0,
+			"pivotBone": "mixamorig:LeftArm",
+			"handleBone": "mixamorig:LeftHand",
+			"iterations": 3
+		},
+		"AimRightHand":{
+			"fadeIn": 1.0,
+			"pivotBone": "mixamorig:RightArm",
+			"handleBone": "mixamorig:RightHand",
+			"iterations": 3
+		},
+
+		"AdjustLeftFoot":{
+			"fadeIn": 1.0,
+			"pivotBone": "mixamorig:LeftUpLeg",
+			"handleBone": "mixamorig:LeftFoot",
+			"iterations": 10
+		},
+		"AdjustRightFoot":{
+			"fadeIn": 1.0,
+			"pivotBone": "mixamorig:RightUpLeg",
+			"handleBone": "mixamorig:RightFoot",
+			"iterations": 10
+		}
+	}
+}

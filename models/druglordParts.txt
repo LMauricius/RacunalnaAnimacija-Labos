@@ -1,0 +1,9 @@
+0.01 0.01 0.01
+Bodymesh.mesh
+Bottomsmesh.mesh
+Eyelashesmesh.mesh
+Eyesmesh.mesh
+Eyewearmesh.mesh
+Hairmesh.mesh
+Shoesmesh.mesh
+Topsmesh.mesh

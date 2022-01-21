@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- exporter: blender2ogre 0.8.0 -->
+<!-- export_time: Fri, 07 Jan 2022 00:31:55 +0000 -->
+<!-- previous_export_time: Thu, 06 Jan 2022 23:29:32 +0000 -->
+<scene author="mauricio" formatVersion="1.1" >
+  <nodes >
+    <node name="drug_lord" >
+      <position x="0.000000" y="0.000000" z="0.000000" />
+      <rotation qw="0.707107" qx="0.707107" qy="0.000000" qz="0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <userData >
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="kitops", address=0x7f9db21d2e88&gt;' name="kitops" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="M3", address=0x7f9db21d31a8&gt;' name="M3" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="scatter5", address=0x7f9db21d3248&gt;' name="scatter5" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="graswald", address=0x7f9db21d32e8&gt;' name="graswald" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="ant_landscape", address=0x7f9db21d3388&gt;' name="ant_landscape" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="hops", address=0x7f9db21d3428&gt;' name="hops" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="DM", address=0x7f9db21d34c8&gt;' name="DM" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="pov", address=0x7f9db21d3568&gt;' name="pov" type="IDPropertyGroup" />
+        <property data='&lt;bpy id prop: owner="OBdrug_lord", name="lod_original", address=0x7f9db21d3608&gt;' name="lod_original" type="IDPropertyGroup" />
+      </userData>
+      <node name="Body" >
+        <position x="0.000001" y="-0.000009" z="0.000003" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="-0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBBody", name="kitops", address=0x7f9db21d1da8&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBody", name="M3", address=0x7f9db21d20c8&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBody", name="scatter5", address=0x7f9db21d2168&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBody", name="graswald", address=0x7f9db21d2208&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBody", name="ant_landscape", address=0x7f9db21d22a8&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBody", name="hops", address=0x7f9db21d2348&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBody", name="DM", address=0x7f9db21d23e8&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBody", name="lod_original", address=0x7f9db21d2488&gt;' name="lod_original" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Bodymesh.mesh" name="Body" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="MEBodymesh", name="hops", address=0x7f9e0ee64e48&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+      <node name="Bottoms" >
+        <position x="-0.000000" y="-0.000000" z="-0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="kitops", address=0x7f9db21d25c8&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="M3", address=0x7f9db21d28e8&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="scatter5", address=0x7f9db21d2988&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="cycles", address=0x7f9db21d2a28&gt;' name="cycles" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="graswald", address=0x7f9db21d2ac8&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="ant_landscape", address=0x7f9db21d2b68&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="hops", address=0x7f9db21d2c08&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="DM", address=0x7f9db21d2ca8&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBBottoms", name="lod_original", address=0x7f9db21d2d48&gt;' name="lod_original" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Bottomsmesh.mesh" name="Bottoms" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="MEBottomsmesh", name="hops", address=0x7f9e0ee64f88&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+      <node name="Eyelashes" >
+        <position x="0.000000" y="0.000000" z="0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="kitops", address=0x7f9db21d3748&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="M3", address=0x7f9db21d3a68&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="scatter5", address=0x7f9db21d3b08&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="graswald", address=0x7f9db21d3ba8&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="ant_landscape", address=0x7f9db21d3c48&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="hops", address=0x7f9db21d3ce8&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="DM", address=0x7f9db21d3d88&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyelashes", name="lod_original", address=0x7f9db21d3e28&gt;' name="lod_original" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Eyelashesmesh.mesh" name="Eyelashes" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="MEEyelashesmesh", name="hops", address=0x7f9e0ee650c8&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+      <node name="Eyes" >
+        <position x="0.000000" y="0.000000" z="0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBEyes", name="kitops", address=0x7f9db21d3f68&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="M3", address=0x7f9db36fe288&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="scatter5", address=0x7f9db36fe328&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="cycles", address=0x7f9db36fe3c8&gt;' name="cycles" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="graswald", address=0x7f9db36fe468&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="ant_landscape", address=0x7f9db36fe508&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="hops", address=0x7f9db36fe5a8&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="DM", address=0x7f9db36fe648&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyes", name="lod_original", address=0x7f9db36fe6e8&gt;' name="lod_original" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Eyesmesh.mesh" name="Eyes" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="MEEyesmesh", name="hops", address=0x7f9e0ee65208&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+      <node name="Eyewear" >
+        <position x="0.000000" y="0.000000" z="0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="kitops", address=0x7f9db36fe828&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="M3", address=0x7f9db36feb48&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="scatter5", address=0x7f9db36febe8&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="graswald", address=0x7f9db36fec88&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="ant_landscape", address=0x7f9db36fed28&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="hops", address=0x7f9db36fedc8&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="DM", address=0x7f9db36fee68&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="lod_original", address=0x7f9db36fef08&gt;' name="lod_original" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBEyewear", name="cycles", address=0x7f9db36fefa8&gt;' name="cycles" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Eyewearmesh.mesh" name="Eyewear" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="MEEyewearmesh", name="hops", address=0x7f9e0ee65348&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+      <node name="Hair" >
+        <position x="0.000000" y="0.000000" z="0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBHair", name="kitops", address=0x7f9db36ff0e8&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="M3", address=0x7f9db36ff408&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="scatter5", address=0x7f9db36ff4a8&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="graswald", address=0x7f9db36ff548&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="ant_landscape", address=0x7f9db36ff5e8&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="hops", address=0x7f9db36ff688&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="DM", address=0x7f9db36ff728&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="cycles", address=0x7f9db36ff7c8&gt;' name="cycles" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBHair", name="lod_original", address=0x7f9db36ff868&gt;' name="lod_original" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Hairmesh.mesh" name="Hair" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="MEHairmesh", name="hops", address=0x7f9e0ee65488&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+      <node name="Shoes" >
+        <position x="-0.000000" y="-0.000000" z="-0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBShoes", name="kitops", address=0x7f9db36ff9a8&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="M3", address=0x7f9db36ffcc8&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="scatter5", address=0x7f9db36ffd68&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="cycles", address=0x7f9db36ffe08&gt;' name="cycles" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="graswald", address=0x7f9db36ffea8&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="ant_landscape", address=0x7f9db36fff48&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="hops", address=0x7f9db36fffe8&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="DM", address=0x7f9db3700088&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBShoes", name="lod_original", address=0x7f9db3700128&gt;' name="lod_original" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Shoesmesh.mesh" name="Shoes" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="MEShoesmesh", name="hops", address=0x7f9e0ee655c8&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+      <node name="Tops" >
+        <position x="-0.000000" y="-0.000003" z="-0.000000" />
+        <rotation qw="1.000000" qx="0.000000" qy="-0.000000" qz="0.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <userData >
+          <property data='&lt;bpy id prop: owner="OBTops", name="kitops", address=0x7f9db3700268&gt;' name="kitops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="M3", address=0x7f9db3700588&gt;' name="M3" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="scatter5", address=0x7f9db3700628&gt;' name="scatter5" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="graswald", address=0x7f9db37006c8&gt;' name="graswald" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="ant_landscape", address=0x7f9db3700768&gt;' name="ant_landscape" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="hops", address=0x7f9db3700808&gt;' name="hops" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="DM", address=0x7f9db37008a8&gt;' name="DM" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="cycles", address=0x7f9db3700948&gt;' name="cycles" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="lod_original", address=0x7f9db37009e8&gt;' name="lod_original" type="IDPropertyGroup" />
+          <property data='&lt;bpy id prop: owner="OBTops", name="pov", address=0x7f9db3700a88&gt;' name="pov" type="IDPropertyGroup" />
+        </userData>
+        <entity meshFile="Topsmesh.mesh" name="Tops" >
+          <userData >
+            <property data='&lt;bpy id prop: owner="METopsmesh", name="hops", address=0x7f9e0ee65708&gt;' name="hops" type="IDPropertyGroup" />
+          </userData>
+        </entity>
+      </node>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="Top.material" />
+    </item>
+    <item type="material" >
+      <file name="Shoes.material" />
+    </item>
+    <item type="material" >
+      <file name="Bottom.material" />
+    </item>
+    <item type="material" >
+      <file name="Hair.material" />
+    </item>
+    <item type="material" >
+      <file name="Body.material" />
+    </item>
+    <item type="material" >
+      <file name="Eyewear.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="0.050000" g="0.050000" r="0.050000" />
+  </environment>
+</scene>

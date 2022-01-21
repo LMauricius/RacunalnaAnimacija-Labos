@@ -1,0 +1,7 @@
+LightColor = 1.0 1.0 1.0
+LightDir = 1.0 -1.0 0.0
+Ambient = 0.3 0.5 0.6
+TargetSpeed = 1.5
+ArmAnimations = AimLeftHand AimRightHand
+LegAnimations = AdjustLeftFoot AdjustRightFoot
+LegAdjustHeight = 0.5
