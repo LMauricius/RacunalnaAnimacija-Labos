@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- exporter: blender2ogre 0.8.2 -->
+<!-- export_time: Tue, 19 Oct 2021 17:59:38 +0000 -->
+<scene author="mauricio" formatVersion="1.1" >
+  <nodes >
+    <node name="Camera" >
+      <position x="7.358891" y="4.958309" z="6.925791" />
+      <rotation qw="0.780483" qx="0.483536" qy="0.336872" qz="-0.208704" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <camera fov="0.356186" name="Camera" projectionType="perspective" >
+        <clipping far="100.000000" near="0.100000" />
+      </camera>
+    </node>
+    <node name="Griffon" >
+      <position x="0.000000" y="0.000000" z="-0.000000" />
+      <rotation qw="0.707107" qx="0.707107" qy="0.000000" qz="-0.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <entity meshFile="Griffon.mesh" name="Griffon" >
+        <userData />
+      </entity>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="Default_OBJ.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground b="0.050876" g="0.050876" r="0.050876" />
+  </environment>
+</scene>
